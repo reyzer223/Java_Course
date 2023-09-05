@@ -1,4 +1,6 @@
+import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.Writer;
 
 /**
  * main
@@ -27,6 +29,15 @@ public class main {
 
         try {
             FileWriter writer = new FileWriter("file.txt");
+            writer.write(s + "\n" + "Вот!");
+            writer.close();
+
+            FileReader reader = new FileReader("file.txt");
+            int c;
+            while ((c = reader.read())!=-1) {
+                System.out.print((char)c);
+            };
+            
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
