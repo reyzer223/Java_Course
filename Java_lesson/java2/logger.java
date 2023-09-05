@@ -9,7 +9,7 @@ public class logger{
  XMLFormatter xml = new XMLFormatter();
  //ch.setFormatter(sFormat);
  ch.setFormatter(xml);
- logger.log(Level.WARNING, "Тестовое логирование");
+//  logger.log(Level.WARNING, "Тестовое логирование");
  logger.info("Тестовое логирование");
  }
 }
