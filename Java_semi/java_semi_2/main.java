@@ -7,9 +7,6 @@ import java.io.Writer;
  */
 public class main {
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         String s = "Hello my World!";
         byte[]b = s.getBytes();
