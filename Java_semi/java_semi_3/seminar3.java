@@ -67,12 +67,12 @@ public class seminar3 {
         // for (int i : list1) {
         //     System.out.println(i);
         // }
-        ListIterator<Integer> iterator = list1.iterator();
-        while (iterator.hasNext()) {
-            int i = iterator.next();
-            System.out.println(i);  
-            iterator.remove();          
-        }
+        // ListIterator<Integer> iterator = list1.iterator();
+        // while (iterator.hasNext()) {
+        //     int i = iterator.next();
+        //     System.out.println(i);  
+        //     iterator.remove();          
+        // }
 
 
 
